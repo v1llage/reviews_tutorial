@@ -33,3 +33,7 @@ html, body {
   margin: 0px auto;
   height: 100%;
 }
+
+.title_image {
+  display: block;
+}
