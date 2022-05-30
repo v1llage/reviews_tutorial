@@ -28,6 +28,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
 }
 
 .mheader {
@@ -40,9 +41,9 @@ html, body {
 
 .mmain {
   background-color: #ddfcc3;
-  height: 100%;
   padding: 20px;
   font-size: 22px;
+  flex: 1 1 auto;
 }
 
 .mfooter {
@@ -51,6 +52,7 @@ html, body {
   padding: 20px;
   text-align: center;
   border-radius: 0px 0px 15px 15px;
+  flex: 0 0 auto;
 }
 
 .title_image {
