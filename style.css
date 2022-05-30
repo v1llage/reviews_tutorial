@@ -31,7 +31,7 @@ html, body {
 }
 
 .mheader {
-  background-color: #86f825;
+  background-color: #afff6c;
   color: #306405;
   padding: 20px;
   text-align: center;
@@ -39,7 +39,7 @@ html, body {
 }
 
 .mmain {
-  background-color: #ccfba4;
+  background-color: #ddfcc3;
   height: 100%;
   padding: 20px;
   font-size: 22px;
@@ -50,6 +50,7 @@ html, body {
   color: #fff;
   padding: 20px;
   text-align: center;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .title_image {
