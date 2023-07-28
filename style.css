@@ -17,7 +17,6 @@ img{vertical-allign:top;}
 
 html, body {
   height: 100%;
-  /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -58,4 +57,34 @@ html, body {
 .title_image {
   display: block;
   margin: 15px auto;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: spase-between;
+  margin: 15px 0px 15px 15px;
+}
+
+.menu__item{
+  line-height: 1.5;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  align-items: center;
+}
+
+.cards__text{
+  width: 65%;
+}
+
+.cards__foto{
+  width: 35%;
+  margin: 25px;
 }
